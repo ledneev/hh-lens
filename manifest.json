@@ -2,14 +2,14 @@
   "manifest_version": 3,
   "name": "HH Lens",
   "version": "0.1.0",
-  "description": "Умные фильтры для поиска вакансий на hh.ru",
+  "description": "Smart filters for hh.ru",
   "permissions": ["storage", "activeTab"],
-  "host_permissions": ["https://hh.ru/*"],
+  "host_permissions": ["https://*.hh.ru/*"],
   "action": {
     "default_popup": "src/popup/index.html"
   },
   "content_scripts": [{
-    "matches": ["https://hh.ru/*"],
+    "matches": ["https://*.hh.ru/*"],
     "js": ["src/content/index.tsx"]
   }],
   "background": {

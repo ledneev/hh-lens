@@ -15,7 +15,6 @@
     "zustand": "^5.0.13"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.4.0",
     "@eslint/js": "^10.0.1",
     "@types/chrome": "^0.1.40",
     "@types/node": "^24.12.2",
@@ -28,6 +27,7 @@
     "globals": "^17.5.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10"
+    "vite": "^8.0.10",
+    "vite-plugin-web-extension": "^4.5.1"
   }
 }
