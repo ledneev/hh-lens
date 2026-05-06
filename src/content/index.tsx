@@ -1,1 +1,1 @@
-console.log('HH Lens content script loaded')
+console.log("HH Lens content script loaded");
